@@ -1,0 +1,65 @@
+.filmNews {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.filmNewsTitle__group {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.filmNews__title {
+  border-left: 10px solid rgb(215, 71, 71);
+  padding-left: 10px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.filmNews__list {
+  display: flex;
+}
+
+.filmNewsItems__group {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.filmNewsItems__group img {
+  width: 282px;
+  height: 188px;
+  margin-right: 10px;
+}
+
+.filmNewsItems__title {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.filmNewsItems__info {
+  /* display: flex;
+  flex-direction: column; */
+  color: white;
+}
+
+.filmNewsItems__date {
+  color: rgb(163, 163, 163);
+}
+
+.filmNewsItems__content {
+  color: rgb(163, 163, 163);
+}
+
+.filmNews__buttons {
+  display: flex;
+}
+
+.filmNews__buttons button {
+  color: white;
+  background-color: black;
+  border: 0.5px solid white;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}

@@ -1,0 +1,47 @@
+.filmListPage {
+  margin-left: 50px;
+}
+
+/* filmLists__group */
+.filmLists__group {
+  color: white;
+  margin-top: 100px;
+}
+
+/* filmLists */
+.filmLists {
+  display: flex;
+  color: white;
+  background-color: rgb(18, 18, 18);
+}
+
+.filmListsTitle__group {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+.filmLists__title {
+  border-left: 10px solid rgb(215, 71, 71);
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+/* filmListsItems.js */
+.filmListsItems__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filmListsItems__group img {
+  width: 250px;
+  height: 370px;
+  margin: 30px 10px 10px 10px;
+}
+
+.filmListsItems__title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}

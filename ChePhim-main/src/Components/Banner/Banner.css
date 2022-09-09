@@ -1,0 +1,52 @@
+.banner {
+  margin: 60px 60px;
+  display: flex;
+}
+
+.banner__left img {
+  width: 1097px;
+  height: 617px;
+}
+
+.banner__right {
+  margin-left: 20px;
+  width: 612px;
+  height: 617px;
+  background-color: rgb(29, 29, 29);
+}
+
+.bannerOption {
+  display: flex;
+  align-items: center;
+}
+.bannerOption > img {
+  margin: 10px;
+  width: 122px;
+  height: 180px;
+}
+
+.bannerOption__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.bannerOption__title {
+  font-size: 24px;
+  color: white;
+}
+/* .bannerOption__trailer {
+  display: flex;
+  align-items: center;
+} */
+
+.bannerOption__trailer > span {
+  color: white;
+  font-size: 18px;
+  color: rgb(163, 163, 163);
+}
+
+.trailerIcon {
+  width: 35px;
+  height: 35px;
+  color: white;
+}
